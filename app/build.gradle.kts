@@ -14,11 +14,12 @@ plugins {
 }
 
 android {
+    buildToolsVersion = "36.1"
     compileSdk = 36
-    namespace = "org.lineageos.recorder"
+    namespace = "org.mewtr.microcamx"
 
     defaultConfig {
-        applicationId = "org.lineageos.recorder"
+        applicationId = "org.mewtr.microcamx"
         minSdk = 31
         targetSdk = 36
         versionCode = 1
